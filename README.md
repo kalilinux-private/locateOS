@@ -1,13 +1,13 @@
-#定位操作系统
-1.This product is licensed under the GNU General Public License v2.0. The author provides the corresponding source‑code package for users to compile by themselves.
-2.This tool is for developer positioning‑test purposes only. Do not abuse it to violate others' privacy rights. Infringement is prohibited.
-3.This tool supports both command‑line and graphical interfaces, and supports language switching.
-4.The author shall not be liable for any consequences caused by the misuse of this product.
+#定位机械
+1.本产品根据 GNU 通用公共许可证 v2.0 获得许可。作者提供了相应的源码包供用户自行编译。
+2.本工具仅供开发者定位测试之用。请勿滥用侵犯他人隐私权。禁止侵权。
+3.该工具支持图形界面，并支持语言切换。
+4.作者不对因误使用本产品而造成的任何后果承担责任。
 
 
-Warning!!!Warning!!!
-Copyright belongs to the author. Secondary redistribution and misuse are prohibited.
+警告！！！警告！！！
+版权属于作者。禁止二次再分配和滥用。
 
 
 
-                                                                               copyright:kalilinux-private
+                                                                               版权所有：kalilinux-private
