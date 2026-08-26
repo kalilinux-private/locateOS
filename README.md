@@ -2,24 +2,43 @@
 
 为什么支持我们的项目？？？
 
-由于它开源免费，定位精度也高，在室内也可达到20米的精度
+由于它开源免费，定位精度也高，在室内也可以达到20米的精度
+
 因为它的UI界面简洁，没有什么花里胡哨的按钮和界面，无广告，只需点点按钮的事就可以
+
 因为他支持3D并且支持填入你自己的AK-但只支持百度地图的
+
 缺点：
 1.file:///不支持定位
+
 2.http协议不让请求定位权限
+
 3.不填ak只支持输出gps经纬度
+
 但是，我们可以使用cloudflare-linux-amd64的程序来把http转成https协议来定位
+
 如何使用？
-1.先安装python依赖：pip install flask,有的网速慢的可以使用pip install -i源地址就可以改善下载
+
+1.先安装python依赖：pip installflask,有的网速慢的可以使用pip install -i源地址就可以改善下载
+
 2.安装完成得安装linux了，这里我推荐用Kalilinux来使用
+
 首先启动我们的flask项目：
+
 python3/python return.py，这里我们的flask项目为return.py
+
 在输入chmod +x cloudflared-linux-amd64来给协议转化程序加上执行权限
+
 然后再写：
+
 ./cloudflared-linux-amd64/cloudflared-linux-amd64tunnel --url http://127.0.0.1:9999 给http转https协议
+
 然后直接输入他给的地址就可以了
+
 你可以在迷路的时候打开它并定位
+
 ！！！注意！！
+
 cloudflared的中转地址每次都不一样执行一次就随机生成一次，这个要注意
-电脑可以打开服务器，但不能关机，否则就断连
+
+电脑可以打开服务器，但不能关机，不然就断连
