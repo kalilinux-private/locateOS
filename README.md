@@ -19,7 +19,7 @@
 
 如何使用？
 
-1.先安装python依赖：pip installflask,有的网速慢的可以使用pip install -i源地址就可以改善下载
+1.先安装python依赖：pip install flask,有的网速慢的可以使用pip install -i源地址就可以改善下载
 
 2.安装完成得安装linux了，这里我推荐用Kalilinux来使用
 
